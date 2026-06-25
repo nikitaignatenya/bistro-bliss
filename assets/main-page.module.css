@@ -1,0 +1,112 @@
+.background_container {
+  padding: 207px 0;
+  background-image: url("../public/backgroundImage_main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+
+  h2 {
+    margin-top: 207px;
+    max-width: 667px;
+
+    margin: auto;
+    font: 400 100px sans-serif;
+    text-align: center;
+  }
+  .description {
+    max-width: 536px;
+    margin: 32px auto 0px;
+
+    font: 400 20px sans-serif;
+    line-height: 32px;
+    text-align: center;
+  }
+  .buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+
+    .buttonAll {
+      padding: 20px 32px;
+      border-radius: 118px;
+
+      font: 700 16px sans-serif;
+      line-height: 24px;
+      text-align: center;
+    }
+    .buttonTable {
+      border: none;
+      outline: none;
+      background-color: #ad343e;
+
+      color: #ffffff;
+    }
+    .buttonMenu {
+      background: none;
+      border: 1.5px solid #2c2f24;
+
+      color: #182226;
+    }
+  }
+}
+
+.menuContainer {
+  width: 100%;
+  h2 {
+    margin-top: 92px;
+    text-align: center;
+    font: 500 55px sans-serif;
+    line-height: 60.5px;
+    text-align: center;
+  }
+  .all_list {
+    width: max-content;
+    padding: 64px;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+    .cart {
+      padding: 40px 34px;
+      border: 1.5px solid #dbdfd0;
+      border-radius: 12px;
+
+      .cartImage {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #dbdfd0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h4 {
+        font-family: 700 24px sans-serif;
+        line-height: 30px;
+        text-align: center;
+      }
+      .cartDescription {
+        max-width: 238px;
+        font-family: 400 16px sans-serif;
+        line-height: 24px;
+        text-align: center;
+      }
+      .exploreLink {
+        text-align: center;
+        font-family: 700 16px sans-serif;
+        text-align: center;
+        color: #ad343e;
+      }
+    }
+  }
+}
